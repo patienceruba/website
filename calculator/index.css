@@ -1,0 +1,72 @@
+body{
+	display: flex;
+	flex-direction: grid;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 1.0);
+}
+.calc{
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 30px;
+	border: none;
+	margin-top: 8%;
+	padding: 20px 10px;
+	box-shadow: 0 0 400px rgb(92, 133, 231, .3);
+}
+.calc:hover{
+	box-shadow: 0 0 400px hsl(40, 100%, 50%, 1.0);
+}
+.calc:active{
+	box-shadow: 0 0 400px hsl(70, 100%, 50%, 1.0);
+}
+button{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: none;
+	margin: 5px;
+	font-size: 20px;
+	cursor: pointer;	
+}
+.btn{
+	align-content: center;
+	padding-left: 4px;
+}
+button:hover{
+	background-color: hsl(84, 100%, 70%, 1.0);
+}
+button:active{
+	background-color: hsl(84, 100%, 20%, 1.0);
+}
+#screen{
+	text-align: right;
+	width:95%;
+	height: 40px;
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 2px;
+	color: white;
+	font-size: 20px;
+	padding-right: 10px;
+	border-radius: 20px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	cursor: progress;
+}
+#ops{
+	background-color: orange;
+	color: white;	
+}
+#ops:hover{
+	background-color: hsl(40, 100%, 90%, .8);
+}
+#ops1{
+	grid-row: span 2;
+	border-radius: 20px;
+	padding: 0 55px;
+	background-color: orange;
+	text-align: center;
+}
+#ops1:hover{
+	background-color: hsl(40, 100%, 90%, .8);
+}
